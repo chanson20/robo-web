@@ -9,7 +9,7 @@ import RoboPiLib as RPL
 #controller code
 import setup
 #controller start
-import post_to_web.py as PTW
+import post_to_web as PTW
 #website
 
 digital_sensor1 = 16
