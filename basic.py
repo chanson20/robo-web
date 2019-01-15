@@ -6,8 +6,11 @@
 #    XXX = sd card number
 
 import RoboPiLib as RPL
+#controller code
 import setup
+#controller start
 import post_to_web.py as PTW
+#website
 
 digital_sensor1 = 16
 
