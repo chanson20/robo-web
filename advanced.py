@@ -23,7 +23,7 @@ while True:
     print('so long comerade')
     exit()
     
-    elif d1read == 0 or d2read == 0:
+  elif d1read == 0 or d2read == 0:
     RPL.servoWrite(lmotor,1500)
     RPL.servoWrite(rmotor,1500)
     
