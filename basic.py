@@ -2,7 +2,17 @@
 #    <img src="https://192.168.21.XXX:8080/?action=stream">
 ###
 #    start camera with /home/student/start_camera.sh
+#    connect to 192.168.21.XXX
+#    XXX = sd card number
 
 import RoboPiLib as RPL
 import setup
 import post_to_web.py as PTW
+
+digital_sensor1 = 16
+motor1 = 0
+
+while True:
+  PTW.state['d1'] = RPL.digitalRead(digital_sensor1)
+  PTW.state['m1'] = RPL.servoRead(motor1)
+  PTW.post()
