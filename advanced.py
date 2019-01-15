@@ -19,6 +19,11 @@ while True:
   elif d1read == 0 or d2read == 0:
     RPL.servoWrite(lmotor,1500)
     RPL.servoWrite(rmotor,1500)
+  elif d1read == 0 and d2read == 0:
+    RPL.servoWrite(lmotor,0)
+    RPL.servoWrite(rmotor,0)
+    print('so long comerade')
+    exit()
     
     
   PTW.state['d1'] = d1read
