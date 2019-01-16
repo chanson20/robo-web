@@ -1,6 +1,6 @@
 # robo-web
-Basic files for posting camera and motor stakes on kitbot website
-go to your dashboard https://192.168.21.XXX
+Basic files for posting camera and motor stakes on kitbot dashboard
+find your dashboard at https://192.168.21.XXX
 XXX = sd card number
 
 # Basic
